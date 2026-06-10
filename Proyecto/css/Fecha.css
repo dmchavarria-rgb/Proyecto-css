@@ -1,0 +1,20 @@
+/* ============================================================
+   BLOQUE 1: FORMULARIO CON FECHA
+   ============================================================ */
+#form-fecha {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+#form-fecha label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#form-fecha input[type="date"] {
+  padding: 8px;
+  width: 100%;
+}

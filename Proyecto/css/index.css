@@ -1,0 +1,45 @@
+/* ============================================================
+   BLOQUE 1: PRESENTACIÓN PRINCIPAL
+   ============================================================ */
+#presentacion {
+  background-color: #f0f8f0;
+  text-align: center;
+  padding: 20px;
+}
+
+#presentacion .nota {
+  font-style: italic;
+  color: #376e4c;
+}
+
+/* ============================================================
+   BLOQUE 2: OBJETIVO
+   ============================================================ */
+#objetivo {
+  margin: 30px auto;
+  width: 80%;
+  border: 2px solid #2a5d2a;
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* ============================================================
+   BLOQUE 3: MULTIMEDIA
+   ============================================================ */
+#multimedia {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.tarjeta {
+  border: 1px solid #83eb7a;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fafafa;
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}

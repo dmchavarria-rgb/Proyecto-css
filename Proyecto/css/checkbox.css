@@ -1,0 +1,19 @@
+/* ============================================================
+   BLOQUE 1: FORMULARIO DE INTERESES (CHECKBOX)
+   ============================================================ */
+#form-checkbox {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#form-checkbox label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-checkbox input[type="checkbox"] {
+  margin-right: 8px;
+}

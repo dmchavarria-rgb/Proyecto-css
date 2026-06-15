@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Favicon personalizado -->
+  <link rel="icon" type="image/png" href="img/favicon_espe.jpg">
 <head>
-    <meta charset="UTF-8">
-    <title>Iniciar Sesion</title>
-    <!-- Enlace al CSS externo -->
-    <link rel="stylesheet" href="css/general.css">
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/login.css">
 </head>
-<body style="background-color:#e6ffe6; font-family:Arial; text-align:center;">
-    <header style="background-color:#006400; color:white; padding:15px;">
-        <h2>Formulario de Inicio de Sesion</h2>
-    </header>
+<body>
+  <header>
+    <h1>Acceso al Sistema</h1>
+  </header>
+  <main>
+    <div class="login-container">
+      <form>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
 
-    <main style="margin-top:30px;">
-        <form action="#" method="post">
-            <label>Usuario:</label><br>
-            <input type="text" name="usuario" required><br><br>
-            <label>Contraseña:</label><br>
-            <input type="password" name="clave" pattern="[A-Za-z0-9@#$%^&+=]{8,16}" title="Debe tener entre 8 y 16 caracteres con letras, números y símbolos." required><br><br>
-            <button type="submit">Ingresar</button>
-        </form>
-        <br>
-        <a href="index.html" style="color:#006400;">Volver a la página principal</a>
-    </main>
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave" required>
+
+        <button type="submit">Ingresar</button>
+      </form>
+    </div>
+    <a href="index.html">Volver a la página principal</a>
+  </main>
 </body>
 </html>

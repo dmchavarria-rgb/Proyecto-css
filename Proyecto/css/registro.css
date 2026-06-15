@@ -1,0 +1,38 @@
+/* ============================================================
+   BLOQUE: FORMULARIO DE REGISTRO
+   ============================================================ */
+.registro-container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #83eb7a;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.registro-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.registro-container label {
+  grid-column: span 2;
+  font-weight: bold;
+}
+
+.registro-container input, .registro-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.registro-container button {
+  grid-column: span 2;
+  padding: 10px;
+  background-color: #2a5d2a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

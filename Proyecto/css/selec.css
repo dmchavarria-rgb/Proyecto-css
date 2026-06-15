@@ -1,21 +1,29 @@
 /* ============================================================
-   BLOQUE 1: FORMULARIO CON SELECT
+   BLOQUE: SELEC
    ============================================================ */
-#form-select {
-  width: 60%;
-  margin: auto;
+.select-container {
+  width: 350px;
+  margin: 40px auto;
   padding: 20px;
-  border: 1px solid #0be716;
-  background-color: #fafafa;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-#form-select label {
-  display: block;
-  margin-bottom: 8px;
+.select-container label {
+  font-weight: bold;
+  color: #2a5d2a;
 }
 
-#form-select select {
+.select-container select {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  transition: border-color 0.3s;
+}
+
+.select-container select:focus {
+  border-color: #2a5d2a;
+  outline: none;
 }

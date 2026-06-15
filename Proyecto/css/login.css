@@ -1,0 +1,36 @@
+/* ============================================================
+   BLOQUE: FORMULARIO DE LOGIN
+   ============================================================ */
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #2a5d2a;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #2a5d2a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #376e4c;
+}

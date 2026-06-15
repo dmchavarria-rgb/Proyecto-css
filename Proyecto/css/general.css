@@ -1,0 +1,476 @@
+/* ============================================================
+   BLOQUE 1: CONFIGURACIÓN GENERAL
+   Selector universal, body, fuente, fondo, color e interlineado.
+   ============================================================ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef3f8;
+    color: #202020;
+    line-height: 1.6;
+}
+
+/* ============================================================
+   BLOQUE 2: TÍTULOS, PÁRRAFOS Y ENLACES
+   Estilos para h1, h2, h3, p, a y a:hover.
+   ============================================================ */
+h1 {
+    margin: 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    color: #006600;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #2ca340;
+}
+
+h3 {
+    color: #1f5c2e;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    color: #006627;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1f5c2e;
+    text-decoration: underline;
+}
+
+/* ============================================================
+   BLOQUE 3: ELEMENTOS SEMÁNTICOS PRINCIPALES
+   Estilos para header, nav, main, section, article, aside y footer.
+   ============================================================ */
+header {
+    background-color: #0c6600;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 4px solid #2ca33c;
+}
+
+header p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main {
+    width: 85%;
+    max-width: 1050px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #b7c7d6;
+}
+
+section {
+    margin-bottom: 22px;
+    padding: 16px;
+    border: 1px solid #c6dfd0;
+    background-color: #ffffff;
+}
+
+article {
+    margin-top: 18px;
+    padding: 16px;
+    border: 1px solid #c6dfd0;
+    background-color: #f8fbff;
+}
+
+aside {
+    width: 85%;
+    max-width: 1050px;
+    margin: 20px auto;
+    padding: 16px;
+    background-color: #fff3cd;
+    border: 1px solid #d7a100;
+}
+
+/* ============================================================
+   BLOQUE 4: MENÚ DE NAVEGACIÓN
+   Estilos para nav, nav a y nav a:hover.
+   ============================================================ */
+nav {
+    background-color: #c6efb9;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #a3d98e;
+}
+
+nav a {
+    color: #006609;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid #a3d98e;
+}
+
+nav a:hover {
+    background-color: #006609;
+    color: white;
+    text-decoration: none;
+}
+
+/* ============================================================
+   BLOQUE 5: CONTENIDO Y SECCIONES
+   Estilos para main, section, article y aside.
+   ============================================================ */
+section article {
+    background-color: #f4f8fc;
+}
+
+main address {
+    font-style: normal;
+    padding: 12px;
+    background-color: #eef3f8;
+    border: 1px solid #c6d3df;
+}
+
+details {
+    margin: 12px 0;
+    padding: 10px;
+    border: 1px solid #c6dfd0;
+    background-color: #f8fbff;
+}
+
+summary {
+    color: #006627;
+    font-weight: bold;
+}
+
+pre, code, kbd {
+    background-color: #eef3f8;
+    color: #006627;
+    padding: 3px;
+    border: 1px solid #c6dfd0;
+}
+
+/* ============================================================
+   BLOQUE 6: IMÁGENES Y MULTIMEDIA
+   Estilos para img, figure, figcaption, video, audio e iframe.
+   ============================================================ */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #c6dfd0;
+    padding: 4px;
+    background-color: white;
+}
+
+figure {
+    margin: 15px auto;
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555555;
+    text-align: center;
+}
+
+video, iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: 2px solid #c6d3df;
+}
+
+audio {
+    width: 100%;
+    max-width: 560px;
+}
+
+/* ============================================================
+   BLOQUE 7: LISTAS
+   Estilos para ul, ol y li.
+   ============================================================ */
+ul, ol {
+    margin-left: 25px;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ============================================================
+   BLOQUE 8: FORMULARIOS
+   Estilos para form, label, input, textarea, select y button.
+   ============================================================ */
+form {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #c6d3df;
+    background-color: #f8fbff;
+}
+
+label {
+    font-weight: bold;
+    color: #003366;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #8eb9d9;
+    background-color: white;
+    color: #202020;
+    font-size: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #006609;
+    color: white;
+    padding: 10px 14px;
+    border: 1px solid #006609;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1f5c2e;
+    border: 1px solid #1f5c2e;
+}
+
+progress, meter {
+    width: 100%;
+    max-width: 300px;
+    height: 24px;
+}
+
+/* ============================================================
+   BLOQUE 9: TABLAS
+   Estilos para table, thead, tbody, tr, th y td.
+   ============================================================ */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    color: #003366;
+    padding: 8px;
+}
+
+thead {
+    background-color: #006609;
+    color: white;
+}
+
+tbody {
+    background-color: white;
+}
+
+tr {
+    border: 1px solid #c6dfd0;
+}
+
+th, td {
+    border: 1px solid #c6dfd0;
+    padding: 10px;
+}
+
+th {
+    background-color: #006609;
+    color: white;
+}
+
+/* ============================================================
+   BLOQUE 10: PIE DE PÁGINA
+   Estilos para footer, footer p y footer address.
+   ============================================================ */
+footer {
+    background-color: #006609;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-top: 25px;
+    border-top: 4px solid #2ca36b;
+}
+
+footer p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
+    text-align: center;
+}
+/* ============================================================
+   BLOQUE 11: MAQUETACION GENERAL Y RESPONSIVE
+   Mejora el Box Model, la navegacion con Flexbox y la adaptacion
+   del sitio para pantallas pequenas.
+   ============================================================ */
+
+/* ---------- Box Model general ----------
+   Se agregan bordes redondeados y sombra suave para separar
+   visualmente las areas principales del sitio.
+*/
+main {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 51, 102, 0.08);
+}
+
+section,
+article,
+aside,
+form,
+img {
+    border-radius: 10px;
+}
+
+/* ---------- Separacion visual ----------
+   Mejora el espacio entre secciones para que el contenido
+   no se vea pegado ni en bloques verticales simples.
+*/
+section {
+    margin-bottom: 24px;
+}
+
+button {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ---------- Menu de navegacion con Flexbox ----------
+   Organiza los enlaces en fila, centrados y con separacion uniforme.
+   flex-wrap permite que los enlaces bajen de linea si no hay espacio.
+*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    display: inline-block;
+    min-width: 120px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+/* ---------- Responsive general ----------
+   Ajustes para celulares y pantallas pequenas.
+*/
+@media (max-width: 700px) {
+
+    /* Reduce el tamano base del texto en pantallas pequenas. */
+    body {
+        font-size: 14px;
+    }
+
+    /* Disminuye el espacio interno del encabezado. */
+    header {
+        padding: 18px 12px;
+    }
+
+    /* Ajusta titulos para evitar desbordes. */
+    h1 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /* Hace que el contenido principal ocupe mejor el ancho disponible. */
+    main,
+    aside {
+        width: 94%;
+        margin: 15px auto;
+        padding: 14px;
+    }
+
+    /* Reduce espacios internos de bloques principales. */
+    section,
+    article,
+    form {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    /* Convierte el menu Flexbox en una columna vertical. */
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    /* Cada enlace del menu ocupa todo el ancho disponible. */
+    nav a {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 10px;
+    }
+
+    /* Controla el tamano de imagenes para que no se desborden. */
+    img {
+        display: block;
+        width: 100%;
+        max-width: 280px;
+        margin: 10px auto;
+    }
+
+    /* Formularios y botones ocupan todo el ancho en movil. */
+    input,
+    textarea,
+    select,
+    button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Radio buttons y checkboxes conservan su tamano natural. */
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+    /* Barras de progreso y medidores se ajustan al ancho movil. */
+    progress,
+    meter {
+        width: 100%;
+        max-width: 280px;
+    }
+}

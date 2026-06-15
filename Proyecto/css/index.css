@@ -1,0 +1,31 @@
+/* ============================================================
+   BLOQUE 1: PÁGINA DE LOGIN
+   Estilos propios del inicio de sesión.
+   ============================================================ */
+
+#login-principal {
+    max-width: 600px;
+    border-radius: 12px;
+    border-top: 6px solid #006609;
+}
+
+#caja-login {
+    background-color: #f8fbff;
+    border-left: 8px solid #5ca32c;
+}
+
+.formulario-login {
+    border: 2px solid #8ed9ab;
+    border-radius: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#caja-login p {
+    text-align: center;
+    background-color: #eef3f8;
+    padding: 10px;
+}

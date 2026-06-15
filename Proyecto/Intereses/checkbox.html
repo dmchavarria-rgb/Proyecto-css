@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Favicon personalizado -->
+  <link rel="icon" type="image/png" href="img/favicon_espe.jpg">
 <head>
-    <meta charset="UTF-8">
-    <title>Checkbox</title>
-    <!-- Enlace al CSS externo -->
-    <link rel="stylesheet" href="css/general.css">
+  <meta charset="UTF-8">
+  <title>Checkbox</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/checkbox.css">
 </head>
-<body style="background-color:#e6ffe6; font-family:Arial; text-align:center;">
-    <header style="background-color:#006400; color:white; padding:15px;">
-        <h2>Intereses</h2>
-    </header>
-
-    <main style="margin-top:30px;">
-        <form action="#" method="post">
-            <p>Seleccione sus intereses:</p>
-            <input type="checkbox" name="interes" value="Programación"> Programación<br>
-            <input type="checkbox" name="interes" value="Redes"> Redes<br>
-            <input type="checkbox" name="interes" value="Seguridad"> Seguridad<br>
-            <input type="checkbox" name="interes" value="Bases de Datos"> Bases de Datos<br><br>
-            <button type="submit">Registrar</button>
-        </form>
-        <br>
-        <a href="index.html" style="color:#006400;">Volver a la página principal</a>
-    </main>
+<body>
+  <header>
+    <h1>Ejemplo de Checkbox</h1>
+  </header>
+  <main>
+    <div class="checkbox-container">
+      <label><input type="checkbox" name="opcion1"> Opción 1</label>
+      <label><input type="checkbox" name="opcion2"> Opción 2</label>
+      <label><input type="checkbox" name="opcion3"> Opción 3</label>
+    </div>
+  </main>
 </body>
 </html>

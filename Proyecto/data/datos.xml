@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formularios>
+    <formulario>
+        <id>1</id>
+        <nombre>Formulario de Registro</nombre>
+        <descripcion>Permite crear cuentas de usuario</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_registro.png</imagen>
+    </formulario>
+    <formulario>
+        <id>2</id>
+        <nombre>Formulario de Búsqueda</nombre>
+        <descripcion>Facilita localizar información en el sistema</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_busqueda.png</imagen>
+    </formulario>
+    <formulario>
+        <id>3</id>
+        <nombre>Formulario con Select</nombre>
+        <descripcion>Selecciona opciones predefinidas</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_select.png</imagen>
+    </formulario>
+    <formulario>
+        <id>4</id>
+        <nombre>Formulario con Checkbox</nombre>
+        <descripcion>Permite elegir múltiples intereses</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_checkbox.png</imagen>
+    </formulario>
+    <formulario>
+        <id>5</id>
+        <nombre>Formulario con Fecha</nombre>
+        <descripcion>Selecciona fechas importantes</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_fecha.png</imagen>
+    </formulario>
+    <formulario>
+        <id>6</id>
+        <nombre>Formulario de Login</nombre>
+        <descripcion>Acceso al sistema con credenciales</descripcion>
+        <estado>activo</estado>
+        <imagen>img/form_login.png</imagen>
+    </formulario>
+</formularios>

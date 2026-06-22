@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Formulario de Registro",
+    "descripcion": "Permite crear cuentas de usuario",
+    "estado": "activo",
+    "imagen": "img/form_registro.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Formulario de Búsqueda",
+    "descripcion": "Facilita localizar información en el sistema",
+    "estado": "activo",
+    "imagen": "img/form_busqueda.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Formulario con Select",
+    "descripcion": "Selecciona opciones predefinidas",
+    "estado": "activo",
+    "imagen": "img/form_select.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Formulario con Checkbox",
+    "descripcion": "Permite elegir múltiples intereses",
+    "estado": "activo",
+    "imagen": "img/form_checkbox.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Formulario con Fecha",
+    "descripcion": "Selecciona fechas importantes",
+    "estado": "activo",
+    "imagen": "img/form_fecha.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Formulario de Login",
+    "descripcion": "Acceso al sistema con credenciales",
+    "estado": "activo",
+    "imagen": "img/form_login.png"
+  }
+]

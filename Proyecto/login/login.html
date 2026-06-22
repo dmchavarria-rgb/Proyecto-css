@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Favicon personalizado -->
-  <link rel="icon" type="image/png" href="img/favicon_espe.jpg">
+<link rel="icon" type="image/png" href="img/favicon_espe.jpg">
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
@@ -10,21 +10,58 @@
 </head>
 <body>
   <header>
-    <h1>Acceso al Sistema</h1>
+    <h1>Formulario de Login</h1>
   </header>
-  <main>
-    <div class="login-container">
-      <form>
+  <main id="login-principal">
+    <section id="caja-login">
+      <form class="formulario-login">
         <label for="usuario">Usuario:</label>
         <input type="text" id="usuario" name="usuario" required>
 
         <label for="clave">Contraseña:</label>
         <input type="password" id="clave" name="clave" required>
 
-        <button type="submit">Ingresar</button>
+        <button type="submit" class="btn-login">Ingresar</button>
       </form>
-    </div>
+      <p>Accede con tus credenciales institucionales</p>
+    </section>
+
     <a href="index.html">Volver a la página principal</a>
+
+    <!-- Nueva sección de datos -->
+    <section id="datos">
+      <h2>Datos simulados</h2>
+      <p>La información de este formulario está representada en los archivos 
+         <code>data/datos.json</code> y <code>data/datos.xml</code>.</p>
+
+      <!-- Tabla de relación interfaz-datos -->
+      <table>
+        <thead>
+          <tr>
+            <th>Elemento de la interfaz</th>
+            <th>Campo JSON/XML</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Usuario</td>
+            <td>usuario</td>
+          </tr>
+          <tr>
+            <td>Contraseña</td>
+            <td>clave</td>
+          </tr>
+          <tr>
+            <td>Estado del formulario</td>
+            <td>estado</td>
+          </tr>
+          <tr>
+            <td>Imagen asociada</td>
+            <td>imagen</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </main>
 </body>
 </html>

@@ -1,10 +1,31 @@
-# Proyecto Web 
+# Proyecto Integración Estilos y Datos
 
 ## 📌 Descripción
-Sitio web académico desarrollado aplicando **Box Model, Flexbox y Grid** para organizar mejor las secciones y dar un estilo más atractivo.
+Este proyecto corresponde a la práctica de **Fundamentos de Desarrollo Web** en la Universidad de las Fuerzas Armadas ESPE.  
+El sitio web integra **HTML5 semántico, CSS externo, Bootstrap, Flexbox, Grid y datos simulados en JSON/XML**, aplicando el enfoque **mobile-first** para garantizar adaptabilidad en dispositivos móviles, tabletas y escritorio.
 
 ---
 
+## 🎯 Objetivo
+- **General:** Desarrollar un sitio web académico que integre estilos CSS externos, componentes Bootstrap y representación de datos en JSON/XML.  
+- **Específicos:**  
+  - Organizar estilos en archivos externos.  
+  - Aplicar selectores variados.  
+  - Implementar Flexbox y Grid.  
+  - Usar componentes Bootstrap personalizados.  
+  - Diseñar mobile-first con media queries.  
+  - Relacionar interfaz con datos simulados.  
+
+---
+
+## 🚀 Tecnologías utilizadas
+- **HTML5** → estructura semántica de las páginas.  
+- **CSS3** → estilos externos (general y específicos).  
+- **Bootstrap 5** → componentes interactivos y sistema Grid.  
+- **Flexbox y CSS Grid** → maquetación responsiva.  
+- **JSON/XML** → representación de datos simulados.  
+
+------
 ## 📂 Estructura
 - **index.html** → Página principal con menú y multimedia.
 - **login.html** → Formulario de acceso.
@@ -33,13 +54,27 @@ Carpetas:
 
 ---
 
-## ✅ Requisitos
-- Uso de **Box Model** (márgenes, padding, bordes).
-- Aplicación de **Flexbox** en menús y tarjetas.
-- Aplicación de **Grid** en resultados.
-- Separación clara de secciones (`header`, `main`, `footer`).
-- Comentarios en CSS por bloques.
+---
 
+## 📄 Páginas disponibles
+- **index.html** → Página principal.  
+- **login.html** → Formulario de inicio de sesión.  
+- **registro.html** → Formulario de registro de estudiantes.  
+- **busqueda.html** → Formulario de búsqueda.  
+- **selec.html** → Formulario con selectores desplegables.  
+- **checkbox.html** → Formulario con casillas de verificación.  
+- **fecha.html** → Formulario para selección de fechas.  
+
+---
+
+## 🧩 Componentes Bootstrap utilizados
+- **Navbar** → navegación principal responsiva.  
+- **Cards** → presentación de formularios.  
+- **Carousel** → imágenes institucionales.  
+- **Accordion** → organización de información adicional.  
+- **Grid System** → distribución de columnas en diferentes dispositivos.  
+
+---
  Autora
  Dayana Chavarria
 ---
